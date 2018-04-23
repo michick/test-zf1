@@ -11,11 +11,13 @@
           <actionMethod actionName="index"/>
         </controllerFile>
         <controllerFile controllerName="Error"/>
-        <!--<controllerFile controllerName="Guestbook">-->
-          <!--<actionMethod actionName="index"/>-->
-        <!--</controllerFile>-->
+        <controllerFile controllerName="Guestbook">
+          <actionMethod actionName="index"/>
+        </controllerFile>
       </controllersDirectory>
-      <formsDirectory enabled="false"/>
+      <formsDirectory>
+        <formFile formName="Guestbook"/>
+      </formsDirectory>
       <layoutsDirectory>
         <layoutScriptsDirectory>
           <layoutScriptFile layoutName="layout"/>
